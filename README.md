@@ -25,6 +25,11 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+<form>
+	<label>Enter Text</label>
+	<input type="text" name="name" id="name"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
