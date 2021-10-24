@@ -10,6 +10,19 @@ Enter your Last Name: <input type="text" id="lastname"/><br><br>
 <input type="submit" value="Submit" onclick="formdata()"/><br>
 </form>
 
+<script>
+function formdata() 
+{
+var firstname1= document.getElementById("firstname").value;
+var lastname1= document.getElementById("lastname").value;
+document.writeln("<h1>Confirmation Page</h1><br>");
+document.writeln("Thank you for completing this form.<br><br>");
+document.writeln("The first name you entered is " + firstname + "<br>");
+document.writeln("The last name you entered is " + lastname);
+}
+</script>
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
